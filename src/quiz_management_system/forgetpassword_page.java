@@ -215,11 +215,11 @@ public class forgetpassword_page extends javax.swing.JFrame {
                         
                         System.out.println(otp);
 			String message = "&message=" + "Hello your OTP for Quiz is:-"+otp+" & Create new password";
-                      //  String message = "&message=" + "Saturday pasun College la yenar ahes na....? mala video payze hote sagle .......----From nikhil patil.....reply on 9011679090";
+                      
 			String sender = "&sender=" + "KIT_IT";
 			String numbers = "&numbers=" +forgottext.getText();
-                        //String num="+919765307039";
-                       // String numbers = "&numbers=" +num;
+                        
+
 			
 			// Send data
 			HttpURLConnection conn = (HttpURLConnection) new URL("https://api.txtlocal.com/send/?").openConnection();
